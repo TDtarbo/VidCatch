@@ -1,0 +1,25 @@
+.not-found {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+
+    & a{
+        color: white;
+        text-decoration: none;
+        background-color: rgba(123, 123, 123, 0.251);
+        padding: 10px 20px;
+        margin-top: 10px;
+        border-radius: 5px;
+    }
+}
+
+.not-found-msg {
+    font-size: 1.5rem;
+    margin-top: 30px;
+}
+
+.not-found-img {
+    width: 100px;
+}
